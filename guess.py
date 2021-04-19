@@ -1,4 +1,4 @@
-#importing random function into python
+#importing random package into python
 import random
 
 # generating a random secret number which is hidden from user
