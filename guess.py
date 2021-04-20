@@ -13,9 +13,11 @@ guess = int(input("Enter a guess: "))
 #setting up counts to count the number times attempts was made
 count = 1
 
-#using the while loop command to generate the code. As long as the guessed number is not 
-#equal to the secret number the user will be told whether the number is higher or lower than the secret
-#number. Where the correct number is guessed the user is congratulated on the guessing right.
+'''
+using the while loop command to generate the code. As long as the guessed number is not 
+equal to the secret number the user will be told whether the number is higher or lower than the secret
+number. Where the correct number is guessed the user is congratulated on the guessing right.
+'''
 while secret != guess:
     if guess < secret:
         count += 1
